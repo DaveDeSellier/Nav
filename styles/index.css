@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: relative;
+}
+
+ul {
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: black;
+
+}
+
+
+li {
+
+    margin: 2px;
+    padding: 7px;
+    color:white;
+    list-style-type: none;
+
+}   
+
+a {
+    color:white;
+    display: inline-block;
+}
+
+a:link {
+    color:white;
+    text-decoration: none;
+    opacity: 60%;
+}
+
+
+a:hover {
+    opacity: 100%;
+}
+
