@@ -18,12 +18,14 @@ ul {
 
 
 li {
-
-    margin: 2px;
-    padding: 7px;
+    /* Inline-block allows <a> link take up whole box */
+    display: inline-block; 
     list-style-type: none;
-
 } 
+
+li:hover {
+    box-shadow: 0px 0px 10px rgb(151, 145, 145);
+}
 
 li.nav-left {
 
@@ -40,18 +42,21 @@ li.nav-right {
 }
 
 a {
+
+    /* Block display allows <a> hyperlink to take up whole li box */
+    display: block;
+    padding: 10px;
     color:white;
-    display:inline-block;
 }
 
 a:link {
-    color:white;
     text-decoration: none;
     opacity: 60%;
 }
 
 
 a:hover {
+    text-decoration: underline;
     opacity: 100%;
 }
 
